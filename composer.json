@@ -6,9 +6,10 @@
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
-        "ext-iconv": "*",x
+        "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^6.2",
         "sensiolabs/security-checker": "^6.0",
+        "symfony/asset": "5.3.*",
         "symfony/console": "5.3.*",
         "symfony/dotenv": "5.3.*",
         "symfony/flex": "^1.3.1",
