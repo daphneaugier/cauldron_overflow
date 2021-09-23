@@ -28,6 +28,8 @@ class QuestionController extends AbstractController
             'Answer 3',
         ];
 
+        dump($this);
+
         return $this->render('question/show.html.twig', [
             'question' => ucwords(str_replace('-',' ', $slug)),
             'answers' => $answers,
